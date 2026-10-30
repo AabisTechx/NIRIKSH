@@ -1,0 +1,9 @@
+# NIRIKSH Backend Dependencies (Team CODE RED — SIH 2026 Prototype)
+# Verified compatible versions for local Python 3.9+ virtual environments
+fastapi>=0.92.0,<1.0.0
+uvicorn>=0.17.6,<1.0.0
+pydantic>=1.10.4,<3.0.0
+python-multipart>=0.0.5,<1.0.0
+pypdf>=3.0.0,<7.0.0
+pdfplumber>=0.10.0,<1.0.0
+httpx>=0.23.0,<1.0.0
