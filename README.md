@@ -1,25 +1,27 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=240&section=header&text=NIRIKSH&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AICTE%20Approval%20Workflow%20Automation&descSize=24&descAlignY=60" width="100%" alt="NIRIKSH banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=NIRIKSH&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Integrated%20AICTE%20Approval%20Workflow%20Automation&descSize=24&descAlignY=60" width="100%" alt="NIRIKSH banner"/>
 
 <a href="https://github.com/AabisTechx/NIRIKSH">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=760&lines=Transparent.+Traceable.+Accountable.;Institution+Portal+%2B+Officer+Portal;Rule-Based+Checks+%2B+AI-Assisted+Analysis;Smart+India+Hackathon+2026+%7C+SIH26262" alt="Typing animation"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00D4FF&center=true&vCenter=true&width=800&lines=Evidence-First+Approval+Workflow;AI+Suggests+%7C+Rules+Decide+%7C+Officers+Approve;Every+Finding+Linked+to+Its+Document+Page+%26+Rule+Clause;Smart+India+Hackathon+2026+%7C+SIH26262" alt="Typing animation"/>
 </a>
 
 <br/>
 
-![SIH 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-FF9933?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=white)
+![SIH 2026](https://img.shields.io/badge/Smart%20India%20Hackathon-2026-FF9933?style=for-the-badge)
 ![Problem Statement](https://img.shields.io/badge/Problem%20Statement-SIH26262-138808?style=for-the-badge)
-![Team](https://img.shields.io/badge/Team-CodeRanger-0A66C2?style=for-the-badge)
+![Theme](https://img.shields.io/badge/Theme-Smart%20Automation-0A66C2?style=for-the-badge)
+![Team](https://img.shields.io/badge/Team-CodeRanger-8A2BE2?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Live%20Prototype-success?style=for-the-badge)
 
-![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Backend-Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 <br/>
 
@@ -34,16 +36,20 @@
 - [✨ What is NIRIKSH?](#-what-is-niriksh)
 - [🎯 The Problem](#-the-problem)
 - [💡 The Solution](#-the-solution)
-- [⚙️ Key Features](#️-key-features)
+- [🌟 Uniqueness & Innovation](#-uniqueness--innovation)
 - [🔄 System Workflow](#-system-workflow)
-- [🏗️ Architecture](#️-architecture)
+- [🛠️ Technical Approach](#️-technical-approach)
 - [🧰 Tech Stack](#-tech-stack)
+- [⚙️ Key Features](#️-key-features)
+- [📊 Impact & Benefits](#-impact--benefits)
+- [🧪 Feasibility & Viability](#-feasibility--viability)
+- [📚 Research & References](#-research--references)
 - [📸 Screenshots](#-screenshots)
 - [🔐 Demo Access](#-demo-access)
 - [🖥️ Run Locally](#️-run-locally)
 - [🌐 Deployment](#-deployment)
 - [📁 Repository Structure](#-repository-structure)
-- [🔮 Future Scope](#-future-scope)
+- [🔮 Roadmap](#-roadmap)
 - [⚠️ Prototype Limitations](#️-prototype-limitations)
 - [👥 Team](#-team)
 - [📄 Disclaimer](#-disclaimer)
@@ -52,17 +58,29 @@
 
 ## ✨ What is NIRIKSH?
 
-> **NIRIKSH** is an AI-assisted platform that streamlines the **AICTE institutional approval process** through document processing, compliance verification, application tracking and officer review.
+> **NIRIKSH** is a **centralised web platform** that digitises and streamlines the **AICTE approval workflow**. It combines structured document submission, automated compliance checks against AICTE norms, real-time tracking, alerts and a transparent decision process.
 
-It connects **institutions** and **regulatory officers** on a single, centralised digital workflow. It helps organise application scrutiny, flags missing information, tracks compliance findings and manages clarification requests.
-
-NIRIKSH pairs **rule-based verification** with **AI-assisted document analysis** to keep scrutiny **transparent and traceable**.
+All applications, documents, communications and decisions live in **one unified system**.
 
 <div align="center">
 
-| 🧠 AI assists | 🧑‍⚖️ Humans decide |
-|:---:|:---:|
-| Extracts, checks, flags, suggests | **Final approval or rejection always rests with authorised officers** |
+### 🧭 The NIRIKSH Principle
+
+| 🤖 AI only **suggests**, with citations | 📏 Verified, versioned rules **decide** what is non-compliant | 🧑‍⚖️ Officers **own** every decision and deadline action |
+|:---:|:---:|:---:|
+
+</div>
+
+<div align="center">
+
+| 📋 Smart India Hackathon 2026 | |
+|:---|:---|
+| **Problem Statement ID** | `SIH26262` |
+| **Problem Statement** | Integrated AICTE Approval Workflow Automation, Compliance Monitoring and Alert Management System |
+| **Theme** | Smart Automation |
+| **PS Category** | Software |
+| **Team Name** | CodeRanger |
+| **Team ID** | 198334 |
 
 </div>
 
@@ -70,31 +88,24 @@ NIRIKSH pairs **rule-based verification** with **AI-assisted document analysis**
 
 ## 🎯 The Problem
 
-<div align="center">
-
-**Problem Statement ID: `SIH26262`**
-
-*Integrated AICTE Approval Workflow Automation, Compliance Monitoring and Alert Management System*
-
-</div>
-
-AICTE approval is a multi-stage process involving application scrutiny, document verification, compliance monitoring, inspections and constant communication between institutions and regulators. Done manually, this leads to:
+AICTE approval is a multi-stage process: application scrutiny, document verification, compliance monitoring, inspections, and constant communication between institutions and regulatory authorities.
 
 | 😓 Pain Point | 💥 Impact |
 |---|---|
-| Scattered, document-heavy scrutiny | Slow reviews, items missed |
-| No unified view of application status | Poor tracking and low transparency |
-| Manual compliance checks | Inconsistent and hard to audit |
-| Back-and-forth clarification | Delays and lost context |
-| Deadline and pendency management | Weak monitoring and oversight |
+| Heavy dependence on emails and physical files | Slow, scattered, hard-to-track scrutiny |
+| Manual verification of long, multi-form applications | Inconsistent checks, missed deficiencies |
+| Rules buried in long PDFs, not machine-readable | Different interpretations, hard to apply uniformly |
+| No real-time visibility of application status | Institutions left guessing, repeated follow-ups |
+| Back-and-forth clarification with lost context | Delays and reduced accountability |
+| Deadline and pendency management done manually | Missed deadlines, weak oversight |
 
-> 📌 A unified digital platform is needed to improve **workflow management, application tracking, compliance monitoring, deadline management and transparency**.
+> 📌 A **unified digital platform** is needed to improve workflow management, application tracking, compliance monitoring, deadline management and **transparency**.
 
 ---
 
 ## 💡 The Solution
 
-NIRIKSH delivers a **two-portal platform** backed by a single FastAPI engine.
+NIRIKSH provides a **role-based, two-portal platform** powered by one backend engine.
 
 <table>
 <tr>
@@ -102,122 +113,161 @@ NIRIKSH delivers a **two-portal platform** backed by a single FastAPI engine.
 
 ### 🏫 Institution Portal
 - 📊 Institution dashboard
-- 📝 Application submission & tracking
-- 📎 Supporting document submission
-- 📄 In-app PDF document viewing
-- 🚦 Application status monitoring
+- 📝 Structured application submission & tracking
+- 📎 Supporting document upload (forms, annexures, certificates)
+- 📄 In-app PDF viewing
+- 🚦 Real-time application status
 - 💬 Clarification requests & resubmission
-- 🕒 Application communication tracking
+- 🕒 Communication tracking
 
 </td>
 <td width="50%" valign="top">
 
 ### 🏛️ AICTE / Officer Portal
-- 🔍 Application overview & scrutiny dashboard
+- 🔍 Scrutiny dashboard with pre-checked applications
 - ✅ Document review & verification
 - 📌 Compliance findings with supporting evidence
 - 📏 Rule-based compliance checks
 - 🤖 AI-assisted document analysis
 - ❓ Clarification requests to institutions
-- ⚖️ Application decision management
-- 🔎 EVC & inspection workflow support
-- 🧾 Audit trail & application history
+- ⚖️ Decision management
+- 🔎 EVC & inspection workflow
+- 👁️ Supervisor overview & 🧾 audit trail
 
 </td>
 </tr>
 </table>
 
+### 🎯 How it addresses the problem
+
+| Problem | NIRIKSH's answer |
+|---|---|
+| Manual verification, emails & physical files | Digital, structured submission with automated checks |
+| Inconsistent scrutiny | Checks every application against the latest AICTE rules and checklists |
+| Delays and missed deadlines | Real-time status tracking and proactive alerts |
+| Lack of transparency | An audit trail for every action |
+
 ---
 
-## ⚙️ Key Features
+## 🌟 Uniqueness & Innovation
 
-| | Feature | Description |
-|:-:|---|---|
-| 🧩 | **Two-Portal Architecture** | Separate, purpose-built Institution and Officer interfaces |
-| 📂 | **Application Management** | Submission, tracking and review in one place |
-| 📄 | **PDF Processing** | Text extraction with page-level references |
-| 📏 | **Compliance Verification** | Rule-based checks on selected requirements |
-| 🤖 | **AI-Assisted Analysis** | RAG-oriented document analysis and suggestions |
-| 🔗 | **Evidence Traceability** | Every finding linked back to its supporting document |
-| 🔁 | **Clarification Workflow** | Request, correct and resubmit cycle |
-| 🔎 | **EVC Management** | Inspection-related workflow support |
-| 👁️ | **Supervisor Overview** | Application monitoring and oversight |
-| 🧾 | **Audit Trail** | Record of application activities |
+<div align="center">
+
+| 🔗 End-to-end traceability | 🗂️ Unified multi-document view |
+|:---|:---|
+| Every finding is linked to the **exact document page** and the **applicable AICTE rule clause** | Correlates information across **multiple forms, annexures** and supporting documents |
+
+| 📏 Rule-based compliance engine | 👥 User-friendly, role-based workflow |
+|:---|:---|
+| Checks against the **latest AICTE norms** and highlights exceptions | Dashboards for **institutions, officers and supervisors** with real-time alerts and audit trail |
+
+</div>
 
 ---
 
 ## 🔄 System Workflow
 
 ```mermaid
-flowchart LR
-    A([🏫 Institution submits<br/>application + documents]) --> B[📄 PDF processing<br/>& information extraction]
-    B --> C[📏 Rule-based<br/>compliance engine]
-    B --> D[🤖 AI-assisted<br/>document analysis]
-    C --> E[📌 Findings +<br/>supporting evidence]
+flowchart TD
+    A["🏫 Application Submission<br/>forms, annexures, certificates"] --> B["📄 Document Processing<br/>OCR + parsing, key-field extraction"]
+    B --> C["🤖 AI-Assisted Analysis - RAG<br/>retrieves AICTE passages,<br/>LLM analyses the evidence"]
+    B --> D["📏 Compliance Verification<br/>AICTE norms, rules and checklists"]
+    C --> E{"Compliant?"}
     D --> E
-    E --> F{{🏛️ Officer review}}
-    F -->|Needs more info| G[❓ Clarification request]
-    G --> H[🏫 Institution resubmits]
-    H --> B
-    F -->|Satisfied| I([⚖️ Final decision<br/>by authorised officer])
-    I --> J[(🧾 Audit trail)]
+    E -->|"✅ Yes"| F["🧑‍⚖️ Officer Review<br/>AI findings + documents"]
+    E -->|"❌ No"| G["❓ Clarification / Rework<br/>remarks sent to institution"]
+    G -->|"Resubmit with corrections"| B
+    F -->|"If required"| H["🔎 EVC Scheduling"]
+    H --> I["📝 Visit Report"]
+    I --> J["⚖️ Authorised Officer's Final Decision"]
+    F --> J
+    J --> K["✅ Approval<br/>letter generated and shared"]
+    J --> L["❌ Rejection<br/>reason with rule clause shared"]
+    K --> M["⏰ Monitoring & Alerts<br/>pending actions, deadline reminders, audit trail"]
+    L --> M
 
     style A fill:#0A66C2,color:#fff,stroke:none
-    style I fill:#138808,color:#fff,stroke:none
-    style F fill:#FF9933,color:#000,stroke:none
-    style J fill:#444,color:#fff,stroke:none
+    style C fill:#2E8B57,color:#fff,stroke:none
+    style D fill:#6A5ACD,color:#fff,stroke:none
+    style J fill:#FF9933,color:#000,stroke:none
+    style K fill:#138808,color:#fff,stroke:none
+    style L fill:#C0392B,color:#fff,stroke:none
+    style M fill:#444,color:#fff,stroke:none
 ```
 
-**Step by step**
-
-1. 🏫 Institution submits an application and supporting documents.
-2. 📄 Documents are processed to extract relevant information.
-3. 📏 The compliance engine checks selected requirements.
-4. 🤖 AI-assisted analysis generates additional findings and suggestions.
-5. 🔍 Officers review findings alongside the supporting evidence.
-6. ❓ Officers can request clarification.
-7. 🔁 Institutions submit revised information.
-8. ⚖️ Authorised officers record the final decision.
-9. 🧾 Every activity is kept in the audit trail.
+| # | Stage | What happens |
+|:-:|---|---|
+| 1️⃣ | **Application Submission** | Institution submits the application with required documents |
+| 2️⃣ | **Document Processing** | Documents are read, structured, and key fields extracted via OCR and parsing |
+| 3️⃣ | **AI-Assisted Analysis (RAG)** | Passages are retrieved from official AICTE documents; an LLM analyses the retrieved evidence |
+| 4️⃣ | **Compliance Verification** | Application is checked against AICTE norms, rules and checklists; mismatches are flagged |
+| 5️⃣ | **Officer Review** | The assigned officer reviews AI findings and documents |
+| 6️⃣ | **Clarification / Rework** | If non-compliant, the institute receives remarks and resubmits, and the cycle repeats |
+| 7️⃣ | **EVC (if required)** | Visit scheduling → visit report → authorised officer's final decision |
+| 8️⃣ | **Decision** | Approval letter is generated, or rejection reason is shared with the rule clause |
+| 9️⃣ | **Monitoring & Alerts** | Tracks pending actions, sends deadline reminders, keeps the audit trail |
 
 ---
 
-## 🏗️ Architecture
+## 🛠️ Technical Approach
 
 ```mermaid
 flowchart TD
-    subgraph Client["🖥️ Frontend (Vercel)"]
-        IP[🏫 Institution Portal]
-        OP[🏛️ Officer Portal]
+    subgraph FE["1️⃣ Institution Portal - Next.js + TypeScript + Tailwind"]
+        FE1["Application submission"]
+        FE2["Document upload"]
     end
 
-    subgraph Server["⚙️ FastAPI Backend (Render)"]
-        API[REST API + Pydantic Schemas]
-        PDF[📄 PDF Processing<br/>PyMuPDF]
-        RULE[📏 Rule Engine]
-        AI[🤖 AI-Assisted Analysis<br/>RAG-oriented]
-        APP[📂 Application Management]
+    subgraph BE["2️⃣ Backend API - FastAPI + Pydantic"]
+        BE1["Request validation"]
+        BE2["Workflow management"]
     end
 
-    DB[(🗄️ SQLite<br/>SQLAlchemy)]
-    FS[(📁 Uploaded PDFs)]
+    subgraph DP["3️⃣ Document Processing - PyMuPDF + Tesseract OCR"]
+        DP1["PDF parsing and OCR"]
+        DP2["Extract text and page references"]
+    end
 
-    IP --> API
-    OP --> API
-    API --> APP
-    API --> PDF
-    PDF --> RULE
-    PDF --> AI
-    RULE --> FIND[📌 Findings & Evidence]
-    AI --> FIND
-    FIND --> OP
-    APP --> DB
-    PDF --> FS
-    FIND --> DB
+    subgraph CV["4️⃣ A - Compliance Verification"]
+        CV1["Rules Engine"]
+        CV2["Checks AICTE rules, flags discrepancies"]
+    end
 
-    style Client fill:#0f2027,color:#fff,stroke:#00D4FF
-    style Server fill:#203a43,color:#fff,stroke:#00D4FF
+    subgraph AI["4️⃣ B - AI Analysis RAG"]
+        AI1["LLM + Embeddings"]
+        AI2["Retrieves AICTE evidence, suggests mismatches"]
+    end
+
+    FS["5️⃣ Findings Summary<br/>rule results + AI suggestions + supporting evidence"]
+    OR["6️⃣ Officer Review<br/>reviews findings, makes the final decision"]
+    APP["✅ Approval"]
+    REJ["❌ Rejection"]
+
+    FE --> BE --> DP
+    DP --> CV
+    DP --> AI
+    CV --> FS
+    AI --> FS
+    FS --> OR
+    OR --> APP
+    OR --> REJ
+    OR -.->|"Clarification / rework"| DP
+
+    style FE fill:#0f2027,color:#fff,stroke:#00D4FF
+    style BE fill:#203a43,color:#fff,stroke:#00D4FF
+    style DP fill:#2c5364,color:#fff,stroke:#00D4FF
 ```
+
+### 🧱 Supporting Components
+
+| Component | Role |
+|---|---|
+| 🐘 **PostgreSQL (+ pgvector)** | Database, audit logs and vector storage for embeddings |
+| 🔗 **SQLAlchemy + Alembic** | Database access and migrations |
+| 🥬 **Celery** | Background tasks and deadline reminders |
+| ☁️ **Private Cloud Storage** | Private, access-controlled document files |
+| 🔑 **RBAC** | Role-based access for institutions, officers and supervisors |
+| 🔎 **EVC** | Visit scheduling, if required |
 
 ---
 
@@ -225,16 +275,158 @@ flowchart TD
 
 <div align="center">
 
-| Layer | Technologies |
+| Layer | Technology |
 |:---:|---|
-| 🎨 **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| ⚙️ **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=flat-square&logo=gunicorn&logoColor=white) |
-| 📄 **Document Processing** | ![PyMuPDF](https://img.shields.io/badge/PyMuPDF-PDF_extraction-FF6F00?style=flat-square) Page-level document references |
-| 🤖 **AI & Compliance** | Rule-based verification • AI-assisted document analysis • RAG-oriented processing |
-| 🗄️ **Database** | ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) |
-| 🚀 **Deployment** | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) |
+| 🎨 **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
+| ⚙️ **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) |
+| 📄 **Document Parsing** | PyMuPDF • Tesseract OCR |
+| 🤖 **AI / RAG** | LLM API • Embeddings |
+| 🗄️ **Database** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) pgvector • ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) Alembic |
+| ⏱️ **Task Scheduler** | ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white) |
+| 🛡️ **Security & DevOps** | RBAC • Private Cloud/Storage • Pytest • ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
 
 </div>
+
+### 🧭 Target Architecture vs. Live Prototype
+
+The stack above is NIRIKSH's **proposed architecture**. The hosted prototype implements a focused subset of it:
+
+| Capability | Prototype (live) | Target architecture |
+|---|:---:|:---:|
+| Two-portal UI (Institution / Officer) | ✅ | ✅ |
+| FastAPI backend with Pydantic schemas | ✅ | ✅ |
+| PDF parsing with page-level references (PyMuPDF) | ✅ | ✅ |
+| Rule-based compliance checks | ✅ | ✅ |
+| AI-assisted, RAG-oriented analysis | ✅ | ✅ (LLM API + embeddings + pgvector) |
+| Clarification and resubmission workflow | ✅ | ✅ |
+| EVC workflow support | ✅ | ✅ |
+| Audit trail | ✅ | ✅ |
+| Database | SQLite + SQLAlchemy | PostgreSQL + pgvector, Alembic migrations |
+| OCR for scanned documents | 🔜 | Tesseract OCR with confidence checks |
+| Background reminders & escalation | 🔜 | Celery |
+| Private, persistent document storage | 🔜 | Private cloud storage |
+| Advanced RBAC & versioned rules | 🔜 | ✅ |
+
+---
+
+## ⚙️ Key Features
+
+| | Feature | Description |
+|:-:|---|---|
+| 📄 | **Document Parsing** | PDF/OCR parsing with page tracking |
+| 🔗 | **End-to-End Traceability** | Every finding linked to the exact document page and AICTE rule clause |
+| 🗂️ | **Unified Multi-Document View** | Correlates data across forms, annexures and supporting documents |
+| 📏 | **Rule-Based Verification** | Flags missing or inconsistent information against the latest AICTE norms |
+| 🤖 | **RAG-Based Evidence Retrieval** | Retrieves supporting evidence from official AICTE documents |
+| ⏰ | **Deadline-Aware Workflow** | Real-time reminders and escalation for delayed actions |
+| 🔑 | **Role-Based Access Control** | Separate access for institutions, officers and supervisors |
+| 🧬 | **Versioned Rules & Audit Logs** | Every action logged with timestamp, user and rule reference |
+| 🧑‍⚖️ | **Human-Driven Final Decision** | AI and automation only assist; officers decide |
+| 🧩 | **Modular, Scalable Architecture** | Extensible to other approval types and regulatory bodies |
+
+---
+
+## 📊 Impact & Benefits
+
+### 👥 Impact on Target Audience
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🏫 Institutions (AICTE, HEIs)**
+- Faster, more transparent approval process
+- Reduced manual workload and better compliance
+- Real-time visibility of status and deficiencies
+
+**🔍 Scrutiny & Regional Officers**
+- Pre-checked applications with highlighted mismatches
+- Evidence-linked references to rules and source documents
+- Simplified workload via a structured dashboard
+
+</td>
+<td width="50%" valign="top">
+
+**⚖️ Authorised Decision-Makers**
+- Consolidated case summary with compliance status
+- Consistent, informed decision-making
+- Less back-and-forth communication
+
+**📋 Supervisors & Auditors**
+- Complete audit trail for every action
+- Easy monitoring of pending cases and escalations
+- Tracks EVC visit schedules, pending reports and delays
+- Improved accountability and traceability
+
+</td>
+</tr>
+</table>
+
+### 🌍 Benefits of the Solution
+
+| Type | Benefit | Supporting Example |
+|---|---|---|
+| 🤝 **Social** | More transparent and consistent scrutiny, building trust among institutions | Clear status and reason for every decision visible to stakeholders |
+| 💼 **Economic / Operational** | Less manual follow-up and document searching, leading to significant time savings | Faster case processing and reduced office effort *(to be quantified in pilot)* |
+| 🌱 **Environmental** | Reduced paper usage through a complete digital workflow and records | All applications, documents and communications in digital form |
+| 🏛️ **Governance** | Accountable decisions with versioned rules and a complete audit trail | Every action logged with timestamp, user and rule reference |
+
+---
+
+## 🧪 Feasibility & Viability
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚙️ Feasibility
+- **Technical:** Proven technologies (Next.js, Python, FastAPI, PostgreSQL, OCR, Celery) form a scalable foundation
+- **Operational:** Structured submission, officer workflow, real-time tracking and alerts
+- **Data:** Can be built and tested using publicly available AICTE handbook formats and synthetic cases
+- **Integration:** Starts standalone; can later integrate with NSWS/AICTE systems with proper authorisation
+
+</td>
+<td width="33%" valign="top">
+
+### 🚧 Challenges & Mitigation
+- **Document quality** → OCR with confidence checks and manual review
+- **Rule accuracy** → Versioned rules and source citations from official documents
+- **Data privacy & security** → Role-based access, encryption and audit logging
+- **Adoption & change** → Simple UI, training and phased rollout
+- **EVC scheduling** → Visit-status tracking, reminders and authorised rescheduling
+
+</td>
+<td width="33%" valign="top">
+
+### 📈 Viability
+- **Economic:** Open-source stack; hosting and support costs can be estimated during a pilot
+- **Scalability:** Modular architecture supports more approval workflows and regulatory bodies
+- **Sustainability:** Maintainable by institutions/AICTE at minimal recurring cost on standard cloud infrastructure
+- **Social impact:** Transparency, accountability and quicker processing for institutes, officers and students
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📚 Research & References
+
+NIRIKSH's design is grounded in published research and official AICTE sources.
+
+| Reference | What it covers | Research gap | How NIRIKSH responds |
+|---|---|---|---|
+| **AICTE Approval Process Handbook 2024-25 to 2026-27** | Official rules, application types and annexure formats | Rules sit in long PDFs, not machine-readable | Verified rules as versioned data; RAG over official text only |
+| **OmniDocBench** (Ouyang et al., CVPR 2025) | Benchmarks PDF parsing across layouts | General benchmarks don't prove accuracy on AICTE forms | Evaluate extraction on labelled synthetic cases; record page and confidence |
+| **MMLongBench-Doc** (Ma et al., NeurIPS 2024) | Long, multi-page document understanding | Cross-page evidence and long-context reasoning remain difficult | Link every finding to its source document and page; flag uncertainty |
+| **Fact, Fetch, and Reason** (Krishna et al., NAACL 2025) | Evaluates retrieval, factuality and reasoning in RAG | Good retrieval alone can't guarantee a correct answer | Use verified AICTE sources and citation-backed, rule-based checks |
+| **Tesseract OCR Engine** (Smith, ICDAR 2007) | Open-source OCR pipeline for scans | Poor scans can cause silent extraction errors | OCR fallback, confidence thresholds and manual review |
+| **FUNSD** (Jaume et al., ICDARW 2019) | Labelled forms for document understanding | A public dataset can't represent every AICTE annexure | Supplementary benchmark; validate on synthetic AICTE-style cases |
+| **RAC** (Li & Flanigan, EMNLP Findings 2025) | Retrieval-assisted factuality correction | Correction methods don't replace authoritative decisions | Require citations; officers retain final approval or rejection |
+
+**Official sources used:** [AICTE Approval Process Handbook](https://www.aicte.gov.in/sites/default/files/APH%20Final.pdf) • [AICTE approval process page](https://www.aicte.gov.in/node/2869) • [National Single Window System (NSWS)](https://www.nsws.gov.in)
+
+> 🏆 **Proposed contribution:** an **evidence-first approval workflow** where AI only suggests with citations, verified versioned rules decide what is non-compliant, and officers own every decision and deadline action.
 
 ---
 
@@ -273,39 +465,54 @@ Try both portals live at **[niriksh-frontend.vercel.app](https://niriksh-fronten
 
 ## 🖥️ Run Locally
 
-**Prerequisites:** Python 3.9+ • Git • a modern web browser
+**Prerequisites:** Python 3.9+ • Node.js 18+ • Git • a modern web browser
+
+### 1️⃣ Clone the repository
 
 ```bash
-# 1️⃣ Clone the repository
 git clone https://github.com/AabisTechx/NIRIKSH.git
 cd NIRIKSH
+```
 
-# 2️⃣ Install backend dependencies
+### 2️⃣ Start the backend (FastAPI)
+
+```bash
 cd backend
 pip install -r requirements.txt
-
-# 3️⃣ Start the server
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
+```
+
+### 3️⃣ Start the frontend (Next.js)
+
+Open a new terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
 ```
 
 | 🔗 | URL |
 |---|---|
-| 🌐 Application | http://127.0.0.1:8000 |
+| 🌐 Frontend | http://localhost:3000 |
+| ⚙️ Backend API | http://127.0.0.1:8000 |
 | 📘 API Docs | http://127.0.0.1:8000/docs |
 
-🪟 **On Windows?** Just double-click `START_NIRIKSH_WINDOWS.bat`.
-
+> 🔌 Make sure the frontend points at your backend URL (`http://127.0.0.1:8000` locally).
+>
 > 🌱 Sample data is seeded automatically when the database is empty.
+
+🪟 **On Windows?** You can also use the included launcher: `START_NIRIKSH_WINDOWS.bat`.
 
 ---
 
 ## 🌐 Deployment
 
-NIRIKSH deploys as **two services**: a static frontend and a FastAPI backend.
+NIRIKSH deploys as **two services**: a Next.js frontend and a FastAPI backend.
 
 | Component | Platform | Status |
 |---|:---:|:---:|
-| 🎨 Frontend | Vercel | 🟢 Live |
+| 🎨 Frontend (Next.js) | Vercel | 🟢 Live |
 | ⚙️ Backend API | Render | 🟢 Live |
 | 📘 API Docs | Render | 🟢 Live |
 | 💻 Source Code | GitHub | 🟢 Public |
@@ -331,14 +538,15 @@ NIRIKSH_UPLOAD_DIR=/var/data/uploads
 </details>
 
 <details>
-<summary><b>🎨 Frontend on Vercel</b></summary>
+<summary><b>🎨 Frontend on Vercel (Next.js)</b></summary>
 
-- Set the backend URL in `frontend/public/config.js` (no trailing slash)
 - Import the repository as a new Vercel project
 - **Root Directory:** `frontend`
-- **Framework Preset:** Other
-- **Build / Install Command:** leave empty
-- **Output Directory:** `public`
+- **Framework Preset:** Next.js
+- **Install Command:** `npm install`
+- **Build Command:** `npm run build`
+- Point the frontend at your deployed Render backend URL (no trailing slash)
+- Make sure the Vercel origin matches `NIRIKSH_CORS_ORIGINS` on Render
 
 </details>
 
@@ -369,10 +577,7 @@ NIRIKSH/
 │   ├── scripts/
 │   └── test_niriksh.py      # Tests
 │
-├── 📂 frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   └── config.js        # Backend API URL
+├── 📂 frontend/             # Next.js application
 │   └── package.json
 │
 ├── 📄 generate_sample_pdf.py
@@ -384,7 +589,16 @@ NIRIKSH/
 
 ---
 
-## 🔮 Future Scope
+## 🔮 Roadmap
+
+```mermaid
+timeline
+    title NIRIKSH Roadmap
+    Prototype (SIH 2026) : Two-portal workflow : Rule-based checks : PDF parsing with page references : Clarification, EVC and audit trail
+    Next : PostgreSQL + pgvector : Tesseract OCR with confidence checks : Celery reminders and escalation : Private persistent storage
+    Later : Configurable approval-stage routing : Region-wise pendency dashboards : Lease and document expiry monitoring : Versioned compliance rules
+    Vision : Integration with NSWS / AICTE systems : Other approval types and regulatory bodies
+```
 
 - [ ] 🛣️ Configurable approval-stage routing
 - [ ] 🗺️ Region-wise pendency and workload dashboards
@@ -392,7 +606,7 @@ NIRIKSH/
 - [ ] 📅 Lease and document expiry monitoring
 - [ ] 🔔 Automated reminders and escalation mechanisms
 - [ ] 🔒 Secure persistent document storage
-- [ ] 🔗 Integration with authorised AICTE and government systems
+- [ ] 🔗 Integration with NSWS / AICTE systems, with proper authorisation
 - [ ] 🛡️ Enhanced role-based access control
 - [ ] 🧬 Compliance rule versioning and validation
 
