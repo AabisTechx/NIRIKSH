@@ -69,3 +69,8 @@ All steps use one consistent flagship sample application: **`NIR-2026-001` (`Dem
 cd niriksh\backend
 python test_niriksh.py -v
 ```
+## Live Deployment
+
+- Frontend: [NIRIKSH Live Demo](https://niriksh-frontend.vercel.app/).
+- Backend API: https://niriksh-suta.onrender.com
+- API Documentation: https://niriksh-suta.onrender.com/docs
