@@ -1,76 +1,332 @@
-# NIRIKSH — Institutional Approval & Compliance System
-**Smart India Hackathon 2026 · Team CODERED**
+# NIRIKSH — AICTE Approval Workflow Automation
 
-NIRIKSH is a two-portal government approval and compliance prototype aligned with the SIH 2026 Technical Approach:
-1. **Institution / College Portal** — Separate login screen, uncluttered dashboard, application & PDF document submission, 5-stage application status tracker, and clarification resubmission workflow.
-2. **AICTE / Officer Portal** — Separate login screen, officer scrutiny dashboard, document & page-reference extraction viewer, parallel compliance review (**Deterministic Rule Engine** + **AI-Assisted Analysis / RAG**), clarification & officer decision workflow, Expert Visit Committee (EVC) inspection management, supervisor monitoring, and chronological audit trail.
+**Smart India Hackathon 2026 | SIH26262 | Team CodeRanger**
 
-## 1. Windows Setup & How to Run (3 Easy Ways)
+## 🚀 Live Demo
 
-### Option A — 1-Click Windows Launcher (Recommended)
-1. Extract the ZIP folder on your Windows PC.
-2. Double-click **`START_NIRIKSH_WINDOWS.bat`** inside the `niriksh` folder.
-3. It will automatically start the FastAPI + SQLite server and open **`http://127.0.0.1:8000`** in your browser.
+**🌐 Live Application:** https://niriksh-frontend.vercel.app
 
-### Option B — Run from VS Code Terminal (Single Terminal Command)
-Open your terminal in the extracted folder and run:
+**⚙️ Backend API:** https://niriksh-suta.onrender.com
 
-```powershell
-cd niriksh\backend
-pip install fastapi uvicorn sqlalchemy pydantic pymupdf python-multipart
-python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
+**📘 API Documentation:** https://niriksh-suta.onrender.com/docs
+
+**💻 GitHub Repository:** https://github.com/AabisTechx/NIRIKSH
+
+---
+
+## 📌 Project Overview
+
+NIRIKSH is an AI-assisted platform designed to streamline the AICTE institutional approval process through document processing, compliance verification, application tracking and officer review.
+
+The platform provides a centralised digital workflow connecting institutions and regulatory officers. It helps organise application scrutiny, identify missing information, track compliance findings and manage clarification requests.
+
+NIRIKSH combines rule-based verification with AI-assisted document analysis to support transparent and traceable scrutiny.
+
+**Final approval or rejection remains the responsibility of authorised officers.**
+
+---
+
+## 🎯 Problem Statement
+
+**Problem Statement ID:** SIH26262
+
+**Title:** Integrated AICTE Approval Workflow Automation, Compliance Monitoring and Alert Management System.
+
+The AICTE approval process involves multiple stages of application scrutiny, document verification, compliance monitoring, inspections and communication between institutions and regulatory authorities.
+
+A unified digital platform is required to improve workflow management, application tracking, compliance monitoring, deadline management and transparency.
+
+---
+
+## 💡 Proposed Solution
+
+NIRIKSH provides a unified platform with two primary portals.
+
+### 1. Institution Portal
+
+- Institution dashboard.
+- Application submission and tracking.
+- Supporting document submission.
+- PDF document viewing.
+- Application status monitoring.
+- Clarification requests and resubmission.
+- Application communication tracking.
+
+### 2. AICTE / Officer Portal
+
+- Application overview and scrutiny dashboard.
+- Document review and verification.
+- Compliance findings and supporting evidence.
+- Rule-based compliance checks.
+- AI-assisted document analysis.
+- Clarification requests to institutions.
+- Application decision management.
+- EVC and inspection workflow support.
+- Audit trail and application history.
+
+---
+
+## ⚙️ Key Features
+
+| Feature | Description |
+|---|---|
+| Two-Portal Architecture | Separate Institution and Officer interfaces |
+| Application Management | Application submission, tracking and review |
+| PDF Processing | Document extraction and page-level references |
+| Compliance Verification | Rule-based compliance checks |
+| AI-Assisted Analysis | RAG-oriented document analysis |
+| Evidence Traceability | Findings linked to supporting documents |
+| Clarification Workflow | Requests, corrections and resubmission |
+| EVC Management | Inspection-related workflow support |
+| Supervisor Overview | Application monitoring and oversight |
+| Audit Trail | Records of application activities |
+
+---
+
+## 🔄 System Workflow
+
+1. Institution submits an application and supporting documents.
+2. Documents are processed to extract relevant information.
+3. The compliance engine checks selected requirements.
+4. AI-assisted analysis generates additional findings and suggestions.
+5. Officers review the findings and supporting evidence.
+6. Officers can request clarification.
+7. Institutions submit revised information.
+8. Authorised officers record the final decision.
+9. Application activities are maintained through an audit trail.
+
+---
+
+## 🏗️ Technical Architecture
+
+```text
+             Institution Portal
+                     |
+                     v
+              FastAPI Backend
+                     |
+          +----------+----------+
+          |                     |
+          v                     v
+   PDF Processing       Application Management
+          |                     |
+          v                     |
+   Extracted Information       |
+          |                     |
+     +----+----+                |
+     |         |                |
+     v         v                |
+ Rule Engine  AI-Assisted       |
+     |        Analysis          |
+     |         |                |
+     +----+----+                |
+          |                     |
+          v                     |
+    Findings & Evidence         |
+          |                     |
+          v                     |
+      Officer Portal <----------+
+          |
+          v
+ Clarification / Decision
+          |
+          v
+       Audit Trail
 ```
 
-Then open **`http://127.0.0.1:8000`** in Chrome or Edge. Both the Two-Portal Frontend UI and the FastAPI + SQLite Backend run together on `http://127.0.0.1:8000`.
+---
 
-### Option C — Instant Browser Mode (Zero Installation)
-If you want to demonstrate the UI immediately without starting the Python backend:
-- Double-click **`niriksh\frontend\public\index.html`** to open it directly in Chrome/Edge, OR run:
-  ```powershell
-  cd niriksh\frontend\public
-  python -m http.server 3000
-  ```
-  and open **`http://localhost:3000`**.
+## 🧰 Technology Stack
 
-## 2. Working Demo Login Credentials
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
 
-Credentials are pre-filled on both login screens (and also have 1-click auto-fill buttons):
+### Backend
+- Python
+- FastAPI
+- Pydantic
+- Uvicorn
 
-| Portal | Role / Account | Demo Login ID | Demo Password |
-| :--- | :--- | :--- | :--- |
-| **1. Institution / College Portal** | Demo Technical Institute, Lucknow (`NIR-2026-001`) | `INST-DTI-2026` | `Niriksh@2026` |
-| **1. Institution / College Portal** | Kaveri Polytechnic & Rural Tech Centre (`NIR-2026-004`) | `INST-KAVERI-2026` | `Niriksh@2026` |
-| **2. AICTE / Officer Portal** | Scrutiny / Reviewing Officer (Sh. Vikramaditya Sen) | `AICTE-OFF-8841` | `Aicte#Scrutiny26` |
-| **2. AICTE / Officer Portal** | Supervisor / Regional Director (Dr. S. Verma) | `AICTE-SUP-1024` | `Aicte#Scrutiny26` |
+### Document Processing
+- PyMuPDF
+- PDF text extraction
+- Page-level document references
 
-## 3. Two-Minute Live Demonstration Script (After Technical Approach Slide)
+### AI & Compliance
+- Rule-based verification
+- AI-assisted document analysis
+- Retrieval-Augmented Generation (RAG)-oriented processing
 
-All steps use one consistent flagship sample application: **`NIR-2026-001` (`Demo Technical Institute, Lucknow` — B.Tech in Artificial Intelligence & Data Science, 120 Seats)**.
+### Database
+- SQLite
+- SQLAlchemy
 
-1. **Institution Portal (30 sec):**
-   - Click **Proceed to Institution Login** → Click **Sign In to Institution Portal** (`INST-DTI-2026` / `Niriksh@2026`).
-   - On the dashboard, view the summary metrics and click **View** on **`NIR-2026-001`** at the top of *My Applications*.
-   - Show the 5-stage progress tracker (`Submitted → Documents Verified → Compliance Review → Inspection → Decision`) and click **Page 1 / Page 2 / Page 3** in the PDF viewer to show the submitted 3-page dossier.
-2. **AICTE / Officer Portal — Compliance & Evidence (40 sec):**
-   - Click **AICTE / Officer Portal** in the top bar → Click **Sign In to AICTE Officer Portal** (`AICTE-OFF-8841` / `Aicte#Scrutiny26`).
-   - Click **View** on **`NIR-2026-001`** in the *Applications Requiring Attention* table (or click **Run Compliance Checks**).
-   - Switch between **Findings (Combined Summary)**, **Rule Results (Deterministic Engine)**, and **AI Analysis (RAG Suggestions)** to show how deterministic rules and RAG operate in parallel.
-   - Click **View Evidence** on the Page 2 Fire Safety NOC deficiency (`PROTOTYPE-RULE-DOC-01` & `RAG-SUG-01`) to display the exact extracted snippet and AICTE Approval Process Handbook 2024–27 citation.
-3. **Clarification Request & Resubmission (30 sec):**
-   - Click **Clarification / Decision Workflow →**, keep **Request Clarification** selected with the pre-filled Page 2 & Page 3 remarks, and click **Record Authorised Officer Decision**.
-   - Switch back to **Institution Portal** → Open **Communications** (`Clarifications & Resubmission`) → Show the officer's official remarks (while internal officer notes remain hidden) and click **Resubmit Application & Re-Run Scrutiny**.
-4. **EVC, Final Decision & Audit Trail (20 sec):**
-   - Switch to **AICTE / Officer Portal** → See that `NIR-2026-001` is back in **Compliance Review** with the Page 2 deficiency resolved.
-   - Open **EVC & Inspections** (optional) or **Clarification & Decision** to record **Approve**, and open **Audit Trail** to show every timestamped action.
+### Deployment
+- Vercel — Frontend
+- Render — Backend API
+- GitHub — Source Code
 
-## 4. Running Automated Tests
+---
 
-```powershell
-cd niriksh\backend
-python test_niriksh.py -v
+## 🔐 Demonstration Access
+
+The application provides demonstration accounts for testing the portals.
+
+| Portal | Username | Password |
+|---|---|---|
+| Institution | `INST-DTI-2026` | `Niriksh@2026` |
+| Officer | `AICTE-OFF-8841` | `Aicte#Scrutiny26` |
+
+**Note:** These are demonstration credentials for synthetic sample data only. They are not real institutional or government accounts.
+
+---
+
+## 🖥️ Run Locally
+
+### Prerequisites
+
+- Python 3.9 or later
+- Git
+- Modern web browser
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/AabisTechx/NIRIKSH.git
+cd NIRIKSH
 ```
-## Live Deployment
 
-- Frontend: [NIRIKSH Live Demo](https://niriksh-frontend.vercel.app/).
-- Backend API: https://niriksh-suta.onrender.com
-- API Documentation: https://niriksh-suta.onrender.com/docs
+### 2. Install Backend Dependencies
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+### 3. Start Backend Server
+
+```bash
+uvicorn main:app --reload --host 127.0.0.1 --port 8000
+```
+
+### 4. Open Application
+
+```text
+http://127.0.0.1:8000
+```
+
+API Documentation:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
+### Windows Launcher
+
+You can also run the included Windows launcher:
+
+```text
+START_NIRIKSH_WINDOWS.bat
+```
+
+---
+
+## 📁 Repository Structure
+
+```text
+NIRIKSH/
+│
+├── backend/
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── requirements.txt
+│   ├── services/
+│   ├── sample_data/
+│   ├── scripts/
+│   └── test_niriksh.py
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── config.js
+│   └── package.json
+│
+├── generate_sample_pdf.py
+├── START_NIRIKSH_WINDOWS.bat
+├── DEPLOYMENT_GUIDE.md
+├── .env.example
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🌐 Deployment
+
+NIRIKSH uses separate frontend and backend deployments.
+
+| Component | Platform | Deployment |
+|---|---|---|
+| Frontend | Vercel | Live |
+| Backend | Render | Live |
+| API Documentation | Render | Live |
+| Source Code | GitHub | Public Repository |
+
+The frontend communicates with the FastAPI backend through the deployed API URL configured in `frontend/public/config.js`.
+
+---
+
+## 🔮 Future Scope
+
+- Configurable approval-stage routing.
+- Region-wise pendency and workload dashboards.
+- Time-bound undertaking tracking.
+- Lease and document expiry monitoring.
+- Automated reminders and escalation mechanisms.
+- Secure persistent document storage.
+- Integration with authorised AICTE and government systems.
+- Enhanced role-based access control.
+- Compliance rule versioning and validation.
+
+---
+
+## ⚠️ Prototype Limitations
+
+NIRIKSH is a Smart India Hackathon 2026 prototype.
+
+- The current implementation uses synthetic demonstration data.
+- AI-assisted analysis supports, but does not replace, authorised officer scrutiny.
+- The deployed demonstration uses SQLite; persistent database and document storage are not guaranteed.
+- Production integration with official AICTE and government systems is not claimed.
+- Production deployment would require security audits, persistent storage, operational monitoring and regulatory validation.
+
+Features described under Future Scope are proposed enhancements, not claims of completed implementation.
+
+---
+
+## 👥 Team Information
+
+**Team Name:** CodeRanger  
+**Competition:** Smart India Hackathon 2026  
+**Problem Statement ID:** SIH26262
+
+**Project Name:** NIRIKSH
+
+---
+
+## 📄 Disclaimer
+
+NIRIKSH is an independent prototype developed for Smart India Hackathon 2026. It is not an official AICTE application or government service and is not affiliated with or endorsed by AICTE or the Ministry of Education.
+
+All demonstration records are synthetic. Final regulatory decisions must remain with the competent authorities.
+
+---
+
+<p align="center">
+  <strong>NIRIKSH — Making Institutional Approval Workflows More Transparent, Traceable and Accountable.</strong>
+</p>
