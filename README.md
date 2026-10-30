@@ -1,5 +1,5 @@
 # NIRIKSH — Institutional Approval & Compliance System
-**Smart India Hackathon 2026 · Team CODERANGER**
+**Smart India Hackathon 2026 · Team CODERED**
 
 NIRIKSH is a two-portal government approval and compliance prototype aligned with the SIH 2026 Technical Approach:
 1. **Institution / College Portal** — Separate login screen, uncluttered dashboard, application & PDF document submission, 5-stage application status tracker, and clarification resubmission workflow.
